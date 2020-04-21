@@ -41,6 +41,15 @@ a:hover {
   color: #113c00;
 }
 
+.skip-links nav {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links nav:focus {
+  top: 0;
+}
+
 .about {
   position: relative;
 }
